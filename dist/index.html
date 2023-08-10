@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="output.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900;1000&display=swap"
+      rel="stylesheet"
+    />
+    <title>Hyperculture</title>
+  </head>
+  <body class="font-Nunito space-y-[9rem] sm:space-y-[4rem]">
+    <header >
+      <nav class="bg-white flex justify-between py-6  px-[3rem] sm:px-[1rem] items-center w-full fixed top-0 z-10">
+        <div class="logo flex align-middle">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="36"
+            height="36"
+            viewBox="0 0 36 36"
+            fill="none"
+          >
+            <circle class="z-10" cx="21" cy="15.5" r="15" fill="#CDDBD8" />
+            <circle cx="15.5" cy="20" r="15.5" fill="#2F6B5C" />
+          </svg>
+          <h2 class="text-2xl font-bold">
+            Hyperculture.<span class="text-Secondary-colors/Secondary-600">ng</span>
+          </h2>
+        </div>
+        <ul class="flex justify-between gap-10 sm:gap-[1.3rem] align-middle py-2 whitespace-nowrap text-Greys/Grey-600 text-lg sm:hidden">
+          <li>Home</li>
+          <li>About Us</li>
+          <li>Our Products</li>
+          <li>FAQs</li>
+        </ul>
+        <button type="button" class="bg-primary-colors-primary-500 text-white py-3 px-7 rounded-full font-bold sm:hidden">
+          Start Shopping
+        </button>
+        <div class="hidden text-[2.5rem] text-primary-colors-primary-500 sm:flex items-center">
+          <ion-icon name="menu-outline" onclick="menu(this)"></ion-icon>
+        </div>
+      </nav>
+
+      <section class="flex sm:flex-col justify-between w-full font-Comfortaa mt-[10rem] sm:mt-[8rem] pl-[4rem] sm:px-0">
+        <article class="w-[51%] sm:w-[100%] flex flex-col justify-between">
+          <div class="sm:text-center">
+            <h1 class="text-[4.5rem] sm:text-[1.7rem] pr-[5rem] sm:pr-0 font-bold leading-standard">
+              One stop shop for everything
+              <span class="text-Secondary-colors/Secondary-600"
+                >plants & soil</span 
+              >
+            </h1>
+            <p class="text-[1.2rem] sm:text-[0.9rem]  pt-6 sm:px-[1.2rem]">
+              Welcome to Nigeria's 1st soil and gardening solutions website. Find
+              products for farm. home plants, etc. here at affordable rates.
+            </p>
+          </div>
+          <div class="w-[100%] space-x-[6rem]sm:space-x-0 sm:space-y-[1rem] font-bold sm:text-center sm:mt-[1.5rem]">
+            <button class="border rounded-full py-[1rem] px-[5rem] text-[1rem] bg-Secondary-colors/Secondary-600 text-white" type="button">Our Products</button>
+            <button class="border border-Secondary-colors/Secondary-600 rounded-full py-[1rem] px-[5.3rem] text-[1rem] text-Secondary-colors/Secondary-600" type="button">Learn More</button>
+          </div>
+        </article>
+        <figure class="relative">
+          <img
+            class="w-[32rem] sm:mt-[3rem] sm:pl-[14%]"
+            src="Public/Front Coffee Bag Mockup label.png"
+            alt="Front Coffee Bag Mockup label"
+          />
+          <img
+            class="w-[20rem] sm:w-[14.6rem] absolute bottom-0 left-[8.5rem] sm:left-[43%]"
+            src="Public/Stand-Up Pouch Bag Mockup label.png"
+            alt="Stand-Up Pouch Bag Mockup label"
+          />
+        </figure>
+      </section>
+    </header> 
+
+    <main class="w-[100%] mt-[22rem] ">
+      <div class="w-[100%]  text-center text-[rgb(161,161,170)] font-Comfortaa flex justify-center">
+        <div class="relative w-[50%] sm:w-[100%] pt-[0rem] px-[1rem]">
+          <img src="Public/Frame 8.png" alt="leaf" class="w-[3.5rem] sm:w-[2rem] absolute top-0 left-[3.7rem] sm:left-[2.5rem] transform -translate-x-1/2 -translate-y-1/2">
+          <h2 class="text-[2rem] sm:text-[1.3rem]">Great soil products for you, greener plants for everyone!</h2>
+        </div>
+      </div>
+
+      <section class="flex flex-col">
+        <h2 class="font-Comfortaa ml-[5.4rem] sm:ml-[6%] text-[1.6rem] sm:text-[1.3rem] mt-[2rem] text-[#3F3F46]">What we offer</h2>
+
+        <article class="bg-[#EFF2F0] w-[94%] self-end mt-[2rem] sm:mt-[0.5rem] pl-[3rem] sm:pl-[0.7rem] py-[2.1rem] sm:pt-[0.5rem] h-[33rem] sm:h-[auto] flex justify-between relative">
+          <div class="text-primary-colors-primary-500   w-[47%] sm:w-[auto] flex flex-col justify-between">
+            <svg class="w-[5rem] sm:w-[2rem]" xmlns="http://www.w3.org/2000/svg" width="76" height="76" viewBox="0 0 76 76" fill="none">
+              <path d="M38 3.95831C39.3117 3.95831 40.375 5.02164 40.375 6.33331V9.49998C40.375 10.8117 39.3117 11.875 38 11.875C36.6883 11.875 35.625 10.8117 35.625 9.49998V6.33331C35.625 5.02164 36.6883 3.95831 38 3.95831Z" fill="#054D3B"/>
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M19.7917 38C19.7917 27.9438 27.9438 19.7916 38 19.7916C48.0562 19.7916 56.2083 27.9438 56.2083 38C56.2083 48.0562 48.0562 56.2083 38 56.2083C27.9438 56.2083 19.7917 48.0562 19.7917 38ZM38 24.5416C30.5672 24.5416 24.5417 30.5671 24.5417 38C24.5417 45.4328 30.5672 51.4583 38 51.4583C45.4328 51.4583 51.4583 45.4328 51.4583 38C51.4583 30.5671 45.4328 24.5416 38 24.5416Z" fill="#054D3B"/>
+              <path d="M17.2877 13.929C16.3602 13.0015 14.8565 13.0015 13.929 13.929C13.0015 14.8565 13.0015 16.3602 13.929 17.2877L16.1681 19.5269C17.0956 20.4544 18.5994 20.4544 19.5269 19.5269C20.4544 18.5994 20.4544 17.0956 19.5269 16.1681L17.2877 13.929Z" fill="#054D3B"/>
+              <path d="M72.0417 38C72.0417 39.3117 70.9783 40.375 69.6667 40.375H66.5C65.1883 40.375 64.125 39.3117 64.125 38C64.125 36.6883 65.1883 35.625 66.5 35.625H69.6667C70.9783 35.625 72.0417 36.6883 72.0417 38Z" fill="#054D3B"/>
+              <path d="M62.071 17.2877C62.9985 16.3602 62.9985 14.8564 62.071 13.9289C61.1435 13.0014 59.6398 13.0014 58.7123 13.9289L56.4731 16.1681C55.5456 17.0956 55.5456 18.5994 56.4731 19.5269C57.4006 20.4544 58.9044 20.4544 59.8319 19.5269L62.071 17.2877Z" fill="#054D3B"/>
+              <path d="M38 64.125C39.3117 64.125 40.375 65.1883 40.375 66.5V69.6666C40.375 70.9783 39.3117 72.0416 38 72.0416C36.6883 72.0416 35.625 70.9783 35.625 69.6666V66.5C35.625 65.1883 36.6883 64.125 38 64.125Z" fill="#054D3B"/>
+              <path d="M59.8321 56.4731C58.9046 55.5456 57.4008 55.5456 56.4733 56.4731C55.5458 57.4006 55.5458 58.9044 56.4733 59.8319L58.7125 62.071C59.64 62.9985 61.1437 62.9985 62.0712 62.071C62.9987 61.1435 62.9987 59.6398 62.0712 58.7123L59.8321 56.4731Z" fill="#054D3B"/>
+              <path d="M11.875 38C11.875 39.3117 10.8117 40.375 9.50001 40.375H6.33334C5.02167 40.375 3.95834 39.3117 3.95834 38C3.95834 36.6883 5.02167 35.625 6.33334 35.625H9.50001C10.8117 35.625 11.875 36.6883 11.875 38Z" fill="#054D3B"/>
+              <path d="M19.5267 59.8318C20.4542 58.9044 20.4542 57.4006 19.5267 56.4731C18.5992 55.5456 17.0954 55.5456 16.1679 56.4731L13.9288 58.7123C13.0013 59.6398 13.0013 61.1435 13.9288 62.071C14.8562 62.9985 16.36 62.9985 17.2875 62.071L19.5267 59.8318Z" fill="#054D3B"/>
+            </svg>
+            <div>
+              <h3 class="text-[2.4rem] sm:text-[1.1rem] font-bold">General plant knowledge</h3>
+              <p class="text-[1.2rem] sm:text-[0.4rem] pr-[5rem] sm:pr-[7rem] mt-[1rem]">We provide general knowledge on what plant owners can feed their plants as well as proper care measures to boost growth and avoid loss. </p>
+            </div>
+            <button type="button" class=" text-[1.3rem] sm:text-[0.3rem] font-bold text-primary-colors-primary-500 border-[0.0625rem] border-primary-colors-primary-500  py-[0.7rem] sm:py-[0.3rem] px-[3rem] sm:px-[1rem] rounded-full sm:rounded-md w-[16rem] sm:w-[40%] sm:mt-[1rem]">Learn more</button>
+          </div>
+
+
+          <div class="flex w-[55%] sm:w-[40%] relative sm:absolute sm:left-[60.2%] justify-end items-center pr-[8rem] sm:pr-0">
+              <img src="Public/Leaf.png" alt="Tree" class="h-[41rem] sm:h-[22rem] absolute left-0 top-[-1.5rem] sm:top-[0.5rem] -translate-y-[10%] ">
+              <p class="text-[15rem] text-[#CDDBD8] font-Comfortaa sm:hidden">1</p>
+              <svg xmlns="http://www.w3.org/2000/svg" width="125" height="8" viewBox="0 0 125 8" fill="none" class="sm:hidden">
+                <path d="M124.364 4.35355C124.559 4.15829 124.559 3.84171 124.364 3.64645L121.182 0.464466C120.987 0.269204 120.67 0.269204 120.475 0.464466C120.28 0.659728 120.28 0.976311 120.475 1.17157L123.303 4L120.475 6.82843C120.28 7.02369 120.28 7.34027 120.475 7.53553C120.67 7.7308 120.987 7.7308 121.182 7.53553L124.364 4.35355ZM0 4.5H124.01V3.5H0V4.5Z" fill="#054D3B"/>
+              </svg>            
+          </div>
+        </article>
+
+        <p class="text-[1.1rem] sm:text-[0.7rem] text-primary-colors-primary-500 font-medium ml-[6%] mt-[1.5rem] sm:mt-[1rem]">See all</p>
+      </section>
+
+      <section class="flex flex-col mt-[5rem] sm:mt-[2rem] w-[94%] sm:w-[96%]">
+        <div class="ml-[5.4rem] sm:ml-[0.5rem]">
+          <h2 class="font-Comfortaa  text-[1.6rem] sm:text-[1.3rem] mt-[2rem] sm:mt-[0] text-[#3F3F46]">Our products</h2>
+          <p class="text-[1.1rem] sm:text-[0.7rem]">Here are some of our products on offer</p>
+        </div>
+
+        <article class="bg-[#EFF2F0] self-start mt-[2rem] sm:mt-[1rem] pl-[3rem] sm:pl-0 py-[2.1rem] sm:py-[1rem] h-[35rem] sm:h-[auto] flex justify-between relative">
+          <div>
+            <img src="Public/bag.png" alt="Bag" class="h-[30rem] sm:h-[13rem] absolute left-[6rem] sm:left-[1rem] bottom-0"> 
+          </div>
+
+          <div class="text-primary-colors-primary-500 pl-[19rem] sm:pl-0 w-[68%] h-[100%] sm:h-[auto] flex flex-col justify-between self-center">
+            <p class="sm:hidden text-[7rem] text-[#CDDBD8] font-Comfortaa">1</p>
+            <div class="space-y-[1rem] sm:space-y-[0.6rem]">
+              <h1 class="text-[2.4rem] sm:text-[1.3rem] font-bold text-left">Hypergrow potting mix</h1>
+              <p class="leading-[1.7rem] sm:leading-[1.3rem] sm:text-[0.3rem] sm:pr-[0.5rem]">
+                This unique mix is made uD or coco coir. Derlite, ordanic compost. 
+                roounanormone, np nutrients,Donemea ,calmag and mycorrhizal that 
+                dramatically expand root development enabling plants to reed more aggressively. 
+                It is specially formulated to produce beautiful fruits, vibrant flowers & strong 
+                growth & is suitable for a wide range of plants & potting situations. Ready to 
+                use right out of the bag
+              </p>
+            </div>
+            <button type="button" class=" text-[1.3rem] sm:text-[0.7rem] font-bold text-primary-colors-primary-500 border-solid border-[0.0625rem] border-primary-colors-primary-500  py-[0.7rem] sm:py-[0.4rem] px-[3rem] sm:px-[1rem] rounded-full w-[16rem] sm:w-[90%] sm:mt-[1rem]">Buy for 20$</button>
+          </div>
+          <div class="h-[100%] flex items-center w-[18rem] mt-[2rem] sm:hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" width="125" height="8" viewBox="0 0 125 8" fill="none">
+              <path d="M124.364 4.35355C124.559 4.15829 124.559 3.84171 124.364 3.64645L121.182 0.464466C120.987 0.269204 120.67 0.269204 120.475 0.464466C120.28 0.659728 120.28 0.976311 120.475 1.17157L123.303 4L120.475 6.82843C120.28 7.02369 120.28 7.34027 120.475 7.53553C120.67 7.7308 120.987 7.7308 121.182 7.53553L124.364 4.35355ZM0 4.5H124.01V3.5H0V4.5Z" fill="#2F6B5C"/>
+            </svg>
+          </div>
+        </article>
+
+        <p class="text-[1.1rem] sm:text-[0.7rem] text-primary-colors-primary-500 font-medium  mt-[1.5rem] sm:mt-[1rem] self-end">See all</p>
+      </section>
+
+      <section>
+        <div class="flex justify-between w-[100%] mt-[6rem] sm:mt-[3rem]">
+
+          <div class="h-[100%] self-end rtl">
+            <div class="w-[9rem] sm:w-[4.5rem] h-[18rem] sm:h-[9rem] bg-[#C7DEA7] rounded-e-full"></div>
+          </div>
+
+          <div class="w-[60%] px-[6rem] sm:px-0 py-[4rem] my-[5rem] sm:my-[2rem] space-y-[2rem] sm:space-y-[0.6rem]">
+            <div class="text-center text-[#3F3F46] mb-[4rem] sm:mb-[0.6rem]">
+              <h1 class="text-[2.1rem] sm:text-[1.2rem] sm:font-bold">Have any questions?</h1>
+              <p class="text-[1.2rem] sm:text-[0.8rem] text-[#52525B]">We are always here to answer your questions</p>
+            </div>
+            <div class="flex justify-between relative pb-[2rem] border-b-[1px] border-[#71717A]">
+                <p class="text-[1.5rem] sm:text-[0.8rem] text-[#3F3F46]">What is hyperculture?</p>
+                <!-- <svg xmlns="http://www.w3.org/2000/svg" width="49" height="49" viewBox="0 0 49 49" fill="none" class="absolute  right-0 top-0 -translate-x-[-26%] -translate-y-[20%]">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M33.7495 20.3548C33.1515 19.7568 32.1819 19.7568 31.584 20.3548L24.5 27.4387L17.4161 20.3548C16.8181 19.7568 15.8486 19.7568 15.2506 20.3548C14.6526 20.9528 14.6526 21.9223 15.2506 22.5203L23.4173 30.687C24.0153 31.285 24.9848 31.285 25.5828 30.687L33.7495 22.5203C34.3475 21.9223 34.3475 20.9528 33.7495 20.3548Z" fill="#71717A"/>
+                </svg> -->
+                <ion-icon name="chevron-down-outline" class="text-[#3F3F46]"></ion-icon>
+            </div>
+            <div class="flex justify-between relative pb-[2rem] border-b-[1px] border-[#71717A]">
+              <div>
+                <p class="text-[1.5rem] sm:text-[0.8rem] text-[#3F3F46]">What is hyperculture?</p>
+                <!-- <p class="text-[1.1rem] sm:text-[0.5rem] pr-[12rem] sm:pr-[1rem] text-[#71717A] mt-[0.2rem]">Welcome to nigerias 1st soil and gardening solutions website. 
+                  Find products for farm, garden, home plants, etc here at affordable rates
+                </p> -->
+              </div>
+              <ion-icon name="chevron-down-outline"></ion-icon>
+                <!-- <svg xmlns="http://www.w3.org/2000/svg" width="49" height="49" viewBox="0 0 49 49" fill="none" class="absolute right-0 top-0 -translate-x-[-26%] -translate-y-[20%]">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M33.7495 20.3548C33.1515 19.7568 32.1819 19.7568 31.584 20.3548L24.5 27.4387L17.4161 20.3548C16.8181 19.7568 15.8486 19.7568 15.2506 20.3548C14.6526 20.9528 14.6526 21.9223 15.2506 22.5203L23.4173 30.687C24.0153 31.285 24.9848 31.285 25.5828 30.687L33.7495 22.5203C34.3475 21.9223 34.3475 20.9528 33.7495 20.3548Z" fill="#71717A"/>
+                </svg> -->
+            </div>
+            <div class="flex justify-between relative pb-[2rem] border-b-[1px] border-[#71717A]">
+                <p class="text-[1.5rem] sm:text-[0.8rem] text-[#3F3F46]">What is hyperculture?</p>
+                <!-- <svg xmlns="http://www.w3.org/2000/svg" width="49" height="49" viewBox="0 0 49 49" fill="none" class="absolute right-0 top-0 -translate-x-[-26%] -translate-y-[20%]">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M33.7495 20.3548C33.1515 19.7568 32.1819 19.7568 31.584 20.3548L24.5 27.4387L17.4161 20.3548C16.8181 19.7568 15.8486 19.7568 15.2506 20.3548C14.6526 20.9528 14.6526 21.9223 15.2506 22.5203L23.4173 30.687C24.0153 31.285 24.9848 31.285 25.5828 30.687L33.7495 22.5203C34.3475 21.9223 34.3475 20.9528 33.7495 20.3548Z" fill="#71717A"/>
+                </svg> -->
+                <ion-icon name="chevron-down-outline" class="text-[#3F3F46]"></ion-icon>
+            </div>
+            <div class="flex justify-between relative pb-[2rem] border-b-[1px] border-[#71717A]">
+                <p class="text-[1.5rem] sm:text-[0.8rem] text-[#3F3F46]">What is hyperculture?</p>
+                <!-- <svg xmlns="http://www.w3.org/2000/svg" width="49" height="49" viewBox="0 0 49 49" fill="none" class="absolute right-0 top-0 -translate-x-[-26%] -translate-y-[20%]">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M33.7495 20.3548C33.1515 19.7568 32.1819 19.7568 31.584 20.3548L24.5 27.4387L17.4161 20.3548C16.8181 19.7568 15.8486 19.7568 15.2506 20.3548C14.6526 20.9528 14.6526 21.9223 15.2506 22.5203L23.4173 30.687C24.0153 31.285 24.9848 31.285 25.5828 30.687L33.7495 22.5203C34.3475 21.9223 34.3475 20.9528 33.7495 20.3548Z" fill="#71717A"/>
+                </svg> -->
+                <ion-icon name="chevron-down-outline" class="text-[#3F3F46]"></ion-icon>
+            </div>
+            <div class="flex justify-between relative pb-[2rem] border-b-[1px] border-[#71717A]">
+                <p class="text-[1.5rem] sm:text-[0.8rem] text-[#3F3F46]">What is hyperculture?</p>
+                <!-- <svg xmlns="http://www.w3.org/2000/svg" width="49" height="49" viewBox="0 0 49 49" fill="none" class="absolute right-0 top-0 -translate-x-[-26%] -translate-y-[20%]">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M33.7495 20.3548C33.1515 19.7568 32.1819 19.7568 31.584 20.3548L24.5 27.4387L17.4161 20.3548C16.8181 19.7568 15.8486 19.7568 15.2506 20.3548C14.6526 20.9528 14.6526 21.9223 15.2506 22.5203L23.4173 30.687C24.0153 31.285 24.9848 31.285 25.5828 30.687L33.7495 22.5203C34.3475 21.9223 34.3475 20.9528 33.7495 20.3548Z" fill="#71717A"/>
+                </svg> -->
+                <ion-icon name="chevron-down-outline" class="text-[#3F3F46]"></ion-icon>
+            </div>
+          </div>
+
+          <div class="w-[8rem]">
+            <img src="Public/Frame 9.png" alt="Leaf">
+          </div>
+        </div>
+      </section>
+
+      <section class="flex justify-center mt-[2rem]">
+        <div class="font-Comfortaa text-white bg-[#054D3B] w-[55%] sm:w-[95%]">
+          <form action="#" class="flex flex-col items-center p-[4rem] sm:px-[1rem] space-y-[3rem] sm:space-y[1rem]">
+            <div class="text-center space-y-[0.6rem]">
+              <h1 class="text-[2rem] sm:text-[1.2rem] sm:font-bold">Contact Us</h1>
+              <p class="px-[1rem] sm:px-[2rem] text-[1.1rem] sm:text-[0.5rem]">Become one of the first users on our platform and enjoy major benefits, give us your email so we can reach you.</p>
+            </div>
+            <div class="flex flex-col items-center space-y-[1rem] w-[47%] sm:w-[90%]">
+              <input class="w-[100%] px-[1.4rem] py-[1rem] sm:py-[0.5rem] rounded-full text-primary-colors-primary-500 font-bold" type="email" name="email" id="email" title="email" placeholder="Enter email here">
+              <input class="w-[100%] px-[3rem] py-[1rem] sm:py-[0.7rem] rounded-full bg-white text-primary-colors-primary-500 font-bold text-[1rem]" type="button" value="Contact Us" class="text-[#054D3B] font-bold bg-white">
+            </div>
+          </form>
+        </div>
+      </section>  
+
+    </main>
+
+    <footer class="w-[100%] flex justify-between px-[2.5rem] sm:px-0 text-primary-colors-primary-500 font-bold">
+      <div class="w-[8rem] sm:w-[4rem]">
+        <img src="Public/Logo.png" alt="HypercultureNG">
+      </div>
+      <div class="flex justify-between items-center space-x-[3rem] sm:space-x-[1rem] ">
+        <div class="sm:w-[1.6rem]">
+          <img src="Public/Twitter.png" alt="Twitter">
+        </div>
+        <div class="sm:w-[1.6rem]">
+          <img src="Public/Microphone.png" alt="Microphone">
+        </div>
+        <div class="sm:w-[1.6rem]">
+          <img src="Public/Globe.png" alt="Globe">
+        </div>
+      </div>
+      <div class="flex items-center space-x-[3rem] sm:hidden">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact Us</a>
+      </div>
+    </footer>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="App.js"></script>
+  </body>
+</html>

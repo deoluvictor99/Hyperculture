@@ -21,35 +21,36 @@
 
           
             <ul class="text-[1.3rem] bg-white whitespace-nowrap text-[#423C3C] font-semibold absolute top-[4.8rem] left-0 px-[1rem] w-[100%] lg:w-auto hidden lg:flex lg:flex-row lg:static lg:gap-[3rem] pb-[1rem] border lg:border-0">
-              <li class="lg:hover:border-t-Secondary-colors/Secondary-600 lg:hover:border-t-[0.3rem] pt-[1.2rem] lg:py-[0.5rem]"><a href="#" class="">Home </a></li>
-              <li class="lg:hover:border-t-Secondary-colors/Secondary-600 lg:hover:border-t-[0.3rem] pt-[1.2rem] lg:py-[0.5rem]"><a href="#" class="">About </a></li>
-              <li class="lg:hover:border-t-Secondary-colors/Secondary-600 lg:hover:border-t-[0.3rem] pt-[1.2rem] lg:py-[0.5rem]"><a href="#" class="">Service </a></li>
-              <li class="mt-2 lg:hidden">
-                <button type="button" class="text-[#323030] px-5 py-2.5 text-[1.2rem] focus:outline-primary-colors-primary-500">Log In</button>
-              </li>
-              <li>
-
-                <button type="button" class="bg-Secondary-colors/Secondary-600 lg:hidden text-[1.2rem] text-white py-[1rem] px-7 rounded-full font-bold">
-                  Make Purchase
-                </button>
+              <li class="lg:hover:border-t-Secondary-colors/Secondary-600 lg:hover:border-t-[0.3rem] pt-[1.2rem] lg:py-[0.5rem]"><a href="#home" class="">Home </a></li>
+              <li class="lg:hover:border-t-Secondary-colors/Secondary-600 lg:hover:border-t-[0.3rem] pt-[1.2rem] lg:py-[0.5rem]"><a href="#about" class="">About </a></li>
+              <li class="lg:hover:border-t-Secondary-colors/Secondary-600 lg:hover:border-t-[0.3rem] pt-[1.2rem] lg:py-[0.5rem]"><a href="#service" class="">Service </a></li>
+              
+              <li class="mt-4">
+                <a href="https://wa.me/09075380750" target="_blank"  rel="noopener">
+                  <button type="button" class="bg-Secondary-colors/Secondary-600 lg:hidden text-[1.2rem] text-white py-2 px-[1.5rem] rounded-full font-bold">
+                    Make Purchase
+                  </button>
+                </a>
               </li>
             </ul>
           
           
           
-          <div class="hidden sm:block  py-3">
-            <button type="button" class="text-[#323030] px-5 py-2.5 text-[1.2rem] focus:outline-primary-colors-primary-500">Log In</button>
-            <button type="button" class="bg-Secondary-colors/Secondary-600 text-[1.2rem] text-white py-[1rem] px-7 rounded-full font-bold">
-              Register
-            </button>
+          <div class="hidden sm:block  py-3 ">
+            <a href="https://wa.me/09075380750" target="_blank"  rel="noopener">
+              <button type="button" class="bg-Secondary-colors/Secondary-600 text-[1.2rem] text-white py-[1rem] px-7 rounded-full font-bold">
+                Make Purchase
+              </button>
+            </a>
+
           </div>
 
         <div class="text-[1.8rem] text-primary-colors-primary-500 flex items-center sm:hidden  py-6">
-          <ion-icon name="menu-outline" onclick="menu(this)"></ion-icon>
+          <ion-icon name="menu-outline" onclick="menu(this)" title="menu"></ion-icon>
         </div>
       </nav>
 
-      <section class="container mt-[6rem] px-[1rem] lg:flex justify-between lg:mt-[9rem] m-auto lg:px-0">
+      <section class="container mt-[6rem] px-[1rem] lg:flex justify-between lg:mt-[9rem] m-auto lg:px-0" id="home">
         <div>
           <h1 class="text-[1.9rem] lg:text-[3.3rem] font-semibold pr-[.5rem] text-[#423C3C] lg:mt-[2rem]">All your gardening <span class="text-Secondary-colors/Secondary-600">solutions</span> in one place</h1>
           <p class="text-[#5F5F5F] text-[1.25rem] lg:text-[1.6rem] pr-[3rem] mt-[0.6rem] lg:pr-[16rem]">The best soil solutions for maximum growth.</p>
@@ -64,14 +65,14 @@
 
     <main>
       <section class="px-[2rem] mt-[7rem]">
-        <div class="flex justify-between items-center">
+        <div class="flex justify-between items-center" id="about">
           <p class=" text-[1.6rem] pr-[1rem] lg:text-[2rem] lg:pl-[2rem] lg:pr-[28rem]">We give you the best soil solutions for garden growth</p>
           <img src="Public/Leaves_Png__Green__Small_Fresh__Leaves_PNG_Transparent_Clipart_Image_and_PSD_File_for_Free_Download-removebg-preview 1.png" alt="" class="min-w-[17rem] self-end hidden lg:block ">
         </div>
         <div>
 
           <div class="lg:flex lg:gap-[1rem] lg:pb-[5rem] lg:w-[100%] relative ">
-            <div class="group border bg-white my-[1.5rem] space-y-[2.5rem] lg:py-[4rem] text-[#787878] hover:text-white p-[2rem] hover:bg-Secondary-colors/Secondary-600 shadow-[0_20px_120px_-0px_rgba(0,0,0,0.10)] ">
+            <div class="group border bg-white my-[1.5rem] space-y-[2.5rem] lg:py-[4rem] text-[#787878] hover:text-white p-[2rem] hover:bg-Secondary-colors/Secondary-600 shadow-[0_20px_120px_-0px_rgba(0,0,0,0.10)] transition-transform transform hover:-translate-y-4">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 34" class="fill-[#329530]  group-hover:fill-[#fff] w-[3rem] ">
                 <path d="M28.7659 19.9628C26.4267 19.9649 24.1364 20.6109 22.1616 21.8256C20.1869 23.0402 18.609 24.7735 17.6118 26.8234C16.6145 24.7735 15.0366 23.0402 13.0619 21.8256C11.0871 20.6109 8.79677 19.9649 6.45764 19.9628H0V21.1003C0 27.6862 5.53038 33.0442 12.3282 33.0442H22.8953C29.6931 33.0442 35.2235 27.6862 35.2235 21.1003V19.9628H28.7659ZM12.3282 30.7692C7.22221 30.7692 2.99958 27.0354 2.41692 22.2378H6.45764C11.5637 22.2378 15.7863 25.9716 16.369 30.7692H12.3282ZM22.8953 30.7692H18.8546C19.4372 25.9716 23.6599 22.2378 28.7659 22.2378H32.8066C32.2239 27.0354 28.0013 30.7692 22.8953 30.7692Z"/>
                 <path d="M11.2441 17.0318C11.4662 18.311 12.0961 19.4907 13.0454 20.4054L13.3894 20.7386H13.8757C15.2146 20.7422 16.5211 20.3395 17.6117 19.5871C18.7024 20.3396 20.0088 20.7424 21.3478 20.7389H21.8341L22.178 20.4057C23.1274 19.491 23.7573 18.3112 23.9793 17.032C25.2997 16.8169 26.5174 16.2066 27.4615 15.2869L27.8054 14.9537V14.4825C27.8092 13.1852 27.3936 11.9194 26.6169 10.8626C27.3936 9.806 27.8093 8.54025 27.8057 7.24305V6.7719L27.4618 6.43868C26.5177 5.51893 25.3 4.90866 23.9796 4.69352C23.7576 3.41431 23.1277 2.23457 22.1783 1.31985L21.8344 0.986697H21.3481C20.0091 0.983033 18.7025 1.38569 17.6117 2.13815C16.5211 1.38564 15.2146 0.982881 13.8757 0.986412H13.3894L13.0454 1.31956C12.0961 2.23428 11.4662 3.41402 11.2441 4.69323C9.92376 4.90837 8.70606 5.51864 7.76191 6.4384L7.41804 6.77162V7.24277C7.41426 8.54003 7.82987 9.80588 8.60654 10.8626C7.82982 11.9193 7.4141 13.185 7.41775 14.4822V14.9534L7.76162 15.2866C8.70584 16.2064 9.92365 16.8167 11.2441 17.0318ZM10.97 10.0583C10.3188 9.43125 9.9051 8.60962 9.79585 7.72642C10.5177 7.17654 11.4099 6.87877 12.3282 6.88132H13.5023V5.7438C13.4997 4.85427 13.8069 3.9899 14.3744 3.2906C15.286 3.39644 16.1341 3.79724 16.7813 4.42812L17.6117 5.23192L18.4419 4.42762C19.0892 3.79675 19.9372 3.39595 20.8488 3.2901C21.4165 3.98951 21.7238 4.85407 21.7211 5.7438V6.88132H22.8953C23.8134 6.87875 24.7056 7.17645 25.4274 7.72621C25.3181 8.60941 24.9044 9.43104 24.2533 10.0581L23.4236 10.8626L24.2539 11.667C24.905 12.2941 25.3187 13.1157 25.428 13.9989C24.706 14.5489 23.8136 14.8466 22.8953 14.844H21.7211V15.9815C21.7238 16.871 21.4165 17.7354 20.8491 18.4347C19.9374 18.3288 19.0894 17.928 18.4421 17.2972L17.6117 16.4934L16.7815 17.2974C16.1342 17.9283 15.2862 18.3291 14.3745 18.435C13.807 17.7356 13.4996 16.8711 13.5023 15.9815V14.844H12.3282C11.4101 14.8465 10.5179 14.5488 9.79607 13.9991C9.90532 13.1159 10.319 12.2942 10.9702 11.6671L11.7998 10.8626L10.97 10.0583Z"/>
@@ -81,7 +82,7 @@
                 garden soil solutions so your vegetables  bloom
               </p>
             </div>
-            <div class="group border bg-white my-[1.5rem] space-y-[2.5rem] lg:py-[4rem] text-[#787878] hover:text-white p-[2rem] hover:bg-Secondary-colors/Secondary-600 shadow-[0_20px_120px_-0px_rgba(0,0,0,0.10)] ">
+            <div class="group border bg-white my-[1.5rem] space-y-[2.5rem] lg:py-[4rem] text-[#787878] hover:text-white p-[2rem] hover:bg-Secondary-colors/Secondary-600 shadow-[0_20px_120px_-0px_rgba(0,0,0,0.10)] transition-transform transform hover:-translate-y-4">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 38 39" class="fill-[#fff] stroke-[#329530] w-[3rem]">
                 <path d="M37 33.8476V19.7608C37.0001 18.7808 36.8001 17.811 36.4123 16.911C36.0245 16.0109 35.457 15.1995 34.7446 14.5264L21.4732 1.98403C20.8048 1.3521 19.9198 1 19 1C18.0802 1 17.1952 1.3521 16.5268 1.98403L3.2554 14.5264C2.543 15.1995 1.97551 16.0109 1.5877 16.911C1.19988 17.811 0.999896 18.7808 1 19.7608V33.8476C1 34.8024 1.37928 35.7181 2.05442 36.3932C2.72955 37.0684 3.64522 37.4476 4.6 37.4476H33.4C34.3548 37.4476 35.2705 37.0684 35.9456 36.3932C36.6207 35.7181 37 34.8024 37 33.8476Z" stroke="#329530" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
               </svg>
@@ -90,7 +91,7 @@
                 Office soil solutions so your vegetables  bloom
               </p>
             </div>
-            <div class="group border bg-white my-[1.5rem] space-y-[2.5rem] lg:py-[4rem] text-[#787878] hover:text-white p-[2rem] hover:bg-Secondary-colors/Secondary-600 shadow-[0_20px_120px_-0px_rgba(0,0,0,0.10)] ">
+            <div class="group border bg-white my-[1.5rem] space-y-[2.5rem] lg:py-[4rem] text-[#787878] hover:text-white p-[2rem] hover:bg-Secondary-colors/Secondary-600 shadow-[0_20px_120px_-0px_rgba(0,0,0,0.10)] transition-transform transform hover:-translate-y-4">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 34" class="fill-[#329530]  group-hover:fill-[#fff] w-[3rem] ">
                 <path d="M20.2105 13.4545H23.5789V16.8182H20.2105V13.4545ZM23.5789 6.72727H20.2105V10.0909H23.5789V6.72727ZM13.4737 23.5455H16.8421V20.1818H13.4737V23.5455ZM16.8421 6.72727H13.4737V10.0909H16.8421V6.72727ZM13.4737 16.8182H16.8421V13.4545H13.4737V16.8182ZM10.1053 6.72727H6.73684V10.0909H10.1053V6.72727ZM10.1053 13.4545H6.73684V16.8182H10.1053V13.4545ZM19.4526 33.6364H16.8421V27.75H13.4737V33.6364H3.36842V3.36364H26.9474V16.8686C28.1432 16.9695 29.2884 17.3395 30.3158 17.8777V0H0V37H21.7432C21.0526 36.0582 20.2105 34.9145 19.4526 33.6364ZM6.73684 30.2727H10.1053V26.9091H6.73684V30.2727ZM10.1053 20.1818H6.73684V23.5455H10.1053V20.1818ZM32 26.0682C32 30.4409 26.1053 37 26.1053 37C26.1053 37 20.2105 30.4409 20.2105 26.0682C20.2105 22.8727 22.9053 20.1818 26.1053 20.1818C29.3053 20.1818 32 22.8727 32 26.0682ZM28.1263 26.2364C28.1263 25.2273 27.1158 24.2182 26.1053 24.2182C25.0947 24.2182 24.0842 25.0591 24.0842 26.2364C24.0842 27.2455 24.9263 28.2545 26.1053 28.2545C27.2842 28.2545 28.2947 27.2455 28.1263 26.2364Z"/>
               </svg>
@@ -102,15 +103,15 @@
             <img src="Public/Vector 5.png" alt="" class="hidden lg:block absolute bottom-[2rem] right-0 z-[-4] lg:w-[36rem]">
           </div>
 
-          <div class="w-[100%] hidden justify-center lg:flex mt-[6rem]">
+          <!-- <div class="w-[100%] hidden justify-center lg:flex mt-[6rem]">
             <div class="w-[12rem] h-[4px] bg-Secondary-colors/Secondary-600"></div>
             <div class="w-[12rem] h-[4px] bg-Secondary-colors/Secondary-600"></div>
             <div class="w-[12rem] h-[4px] bg-Secondary-colors/Secondary-600"></div>
-          </div>
+          </div> -->
         </div>
       </section>
 
-      <section class="px-[1rem] my-[5rem]">
+      <section class="px-[1rem] my-[5rem]" id="service">
         <h2 class="text-[#423C3C] text-[1.5rem] font-semibold pl-[1rem]">Some of our soil products</h2>
         <div class="px-[1.5rem] lg:px-[4rem] mt-[2rem] space-y-4 lg:space-y-0 lg:pb-[3rem] text-[#323030] font-semibold text-[1.4rem] lg:flex lg:justify-between ">
           <figure class=" flex flex-col space-y-[1.5rem]">
